@@ -5,10 +5,10 @@
 angular.module('OWMApp', ['ngRoute'])
     .config(function($routeProvider){
         $routeProvider.when('/', {
-            templateURL: './home.html',
-            controller: 'HomeCtrl'
+            templateUrl : './home.html',
+            controller : 'HomeCtrl'
         });
     })
-    .controller('HomeCtrl', function ($scope) {
-        //
+    .controller('HomeCtrl', function($scope) {
+        //empty for now
     });;
